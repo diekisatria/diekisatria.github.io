@@ -1,0 +1,209 @@
+:root {
+  --black: #1a1c22;
+  --merah: #db202c;
+  --putih: #fef4f4;
+  --abu-abu: #e3e1e1;
+  --grey: #1f2127;
+  --grey2: #e3e0e0;
+  --monserat: "Montserrat", sans-serif;
+  --volho: "Volkhov", serif;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/* Navbar */
+.navbar .nav-link {
+  color: var(--putih);
+  font-family: var(--monserat);
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 24px;
+}
+
+.tombol-primary {
+  background-color: var(--merah);
+  color: var(--putih);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 9px 28px;
+  font-family: var(--monserat);
+  font-size: 18px;
+  font-weight: 600;
+}
+.tombol-secondary {
+  border: 1px solid var(--putih);
+  color: var(--putih);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 9px 28px;
+  font-family: var(--monserat);
+  font-size: 18px;
+  font-weight: 600;
+}
+.tombol-secondary:hover {
+  background-color: var(--merah);
+  color: var(--putih);
+  border: none;
+}
+
+/* Hero */
+.hero h1 {
+  font-family: var(--volho);
+  color: var(--putih);
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-family: var(--monserat);
+  font-size: 16px;
+  color: var(--grey2);
+}
+
+.my-78 {
+  margin-top: 78px;
+  margin-bottom: 78px;
+}
+
+.sub-judul {
+  color: var(--putih);
+  font-family: var(--volho);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 180% */
+  letter-spacing: -0.6px;
+}
+
+.card-layanan {
+  background-color: var(--grey);
+  border-radius: 30px;
+  padding: 24px;
+  box-sizing: border-box;
+  height: 320px;
+}
+
+.card-layanan h3 {
+  color: var(--putih);
+  font-family: var(--monserat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+.card-layanan p {
+  color: var(--grey2);
+  font-family: var(--monserat);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
+
+.judul-2 {
+  color: var(--putih);
+  font-family: var(--volho);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 180% */
+  letter-spacing: -0.6px;
+}
+
+.card-film {
+  border-radius: 30px;
+  border: 1px solid rgba(254, 244, 244, 0.6);
+  background: #1f2127;
+  box-shadow: 0px 5px 25px 0px rgba(64, 67, 78, 0.5);
+  padding: 24px;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+.card-film h3 {
+  color: var(--putih);
+  font-family: var(--monserat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+.card-film h5 {
+  color: var(--putih);
+  font-family: var(--monserat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+}
+
+.card-film span {
+  color: var(--grey2);
+  font-family: var(--monserat);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
+
+.card-paket {
+  background-color: var(--grey);
+  border-radius: 30px;
+  padding: 25px;
+  height: 600px;
+}
+
+.card-paket h5 {
+  color: var(--putih);
+  font-family: var(--monserat);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-paket h1 {
+  color: var(--merah);
+  text-align: center;
+  font-family: var(--monserat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 156.25% */
+  letter-spacing: -0.48px;
+}
+
+.card-paket p {
+  font-family: var(--monserat);
+  color: var(--putih);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+  margin-bottom: 5px;
+}
+
+.card-paket.paket-utama {
+  border: 1px solid var(--putih);
+  background-color: #373a43dc;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  font-family: var(--monserat);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
